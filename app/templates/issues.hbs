@@ -1,50 +1,22 @@
 {{tool-bar options=model.sections}}
 
 {{!-- Template for mobile ~ 834px and below --}}
-<section class="issues issues--mobile" style="display: none;">
+<section class="issues issues--mobile">
     {{#each model.issues as |issue|}}
     <div class="issue">
-        <div class="issue__detail">
-            <h3 class="issue__heading">Customer Name</h3>
+        {{issue-detail title="Customer Name" body=issue.customer_name}}
 
-            <p class="issue__body">{{issue.customer_name}}</p>
-        </div>
+        {{issue-detail title="Customer Email" body=issue.customer_email}}
 
-        <div class="issue__detail">
-            <h3 class="issue__heading">Customer Email</h3>
+        {{issue-detail title="Description" body=issue.description}}
 
-            <p class="issue__body">{{issue.customer_email}}</p>
-        </div>
+        {{issue-detail title="Status" body=issue.status}}
 
-        <div class="issue__detail">
-            <h3 class="issue__heading">Description</h3>
+        {{issue-detail title="Opened At" body=issue.opened_at}}
 
-            <p class="issue__body">{{issue.description}}</p>
-        </div>
+        {{issue-detail title="Closed At" body=issue.closed_at}}
 
-        <div class="issue__detail">
-            <h3 class="issue__heading">Status</h3>
-
-            <p class="issue__body">{{issue.status}}</p>
-        </div>
-
-        <div class="issue__detail">
-            <h3 class="issue__heading">Opened At</h3>
-
-            <p class="issue__body">{{issue.opened_at}}</p>
-        </div>
-
-        <div class="issue__detail">
-            <h3 class="issue__heading">Closed At</h3>
-
-            <p class="issue__body">{{issue.closed_at}}</p>
-        </div>
-
-        <div class="issue__detail">
-            <h3 class="issue__heading">Handling Employee</h3>
-
-            <p class="issue__body">{{issue.handling_employee}}</p>
-        </div>
+        {{issue-detail title="Handling Employee" body=issue.handling_employee}}
     </div>
     {{/each}}
 </section>
