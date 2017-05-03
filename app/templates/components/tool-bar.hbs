@@ -1,0 +1,9 @@
+<nav class="toolbar">
+    <ul class="toolbar__options button-group">
+        {{#each options as |option|}}
+        <li class="toolbar__option button">{{option}}</li>
+        {{/each}}
+    </ul>
+</nav>
+
+{{yield}}
