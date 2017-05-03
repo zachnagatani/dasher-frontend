@@ -1,6 +1,7 @@
 {{tool-bar options=model.sections}}
 
-<section class="issues" style="display: none;">
+{{!-- Template for mobile ~ 834px and below --}}
+<section class="issues issues--mobile" style="display: none;">
     {{#each model.issues as |issue|}}
     <div class="issue">
         <div class="issue__detail">
@@ -48,10 +49,11 @@
     {{/each}}
 </section>
 
-<table class="">
+{{!-- Template for desktop ~ 834px and above --}}
+<table class="issues issues--table">
     <tbody>
         {{#each model.issues as |issue|}}
-        <tr>
+        <tr class="issue">
             <td>{{issue.customer_name}}</td>
             <td>{{issue.customer_email}}</td>
             <td>{{issue.description}}</td>

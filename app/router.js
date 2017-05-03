@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('geo');
   this.route('issues');
+  this.route('metrics');
 });
 
 export default Router;
