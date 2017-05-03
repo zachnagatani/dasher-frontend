@@ -1,9 +1,16 @@
 <nav class="sidebar">
     <ul class="sidebar__nav menu vertical">
         <li class="sidebar__brand menu-text">Dasher</li>
-        <li class="sidebar__link"><a href="#">Location Map</a></li>
-        <li class="sidebar__link"><a href="#">Key Metrics</a></li>
-        <li class="sidebar__link"><a href="#">Issues</a></li>
+        <li class="sidebar__link">
+            {{#link-to 'metrics'}}
+                Key Metrics
+            {{/link-to}}
+        </li>
+        <li class="sidebar__link">
+            {{#link-to 'issues'}}
+                Issue Data
+            {{/link-to}}
+        </li>
     </ul>
 </nav>
 
