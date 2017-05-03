@@ -57,7 +57,60 @@ export default function() {
         ]
     };
 
+    let months =
+        {
+            "data": [
+                {
+                    "id": "May, 2017",
+                    "type": "month",
+                    "attributes": {
+                        "label": "05/2017",
+                        "value": 6
+                    }
+                }, {
+                    "id": "April, 2017",
+                    "type": "month",
+                    "attributes": {
+                        "label": "04/2017",
+                        "value": 5
+                    }
+                }, {
+                    "id": "March, 2017",
+                    "type": "month",
+                    "attributes": {
+                        "label": "03/2017",
+                        "value": 4
+                    }
+                }, {
+                    "id": "February, 2017",
+                    "type": "month",
+                    "attributes": {
+                        "label": "02/2017",
+                        "value": 3
+                    }
+                }, {
+                    "id": "January, 2017",
+                    "type": "month",
+                    "attributes": {
+                        "label": "01/2017",
+                        "value": 2
+                    }
+                }, {
+                    "id": "December, 2016",
+                    "type": "month",
+                    "attributes": {
+                        "label": "12/2016",
+                        "value": 1
+                    }
+                }
+            ]
+        };
+
   this.get('/issues', function() {
     return issues;
+  });
+
+  this.get('/months', function() {
+    return months;
   });
 }

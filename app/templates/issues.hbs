@@ -1,7 +1,7 @@
 {{tool-bar options=model.sections}}
 
 {{!-- Template for mobile ~ 834px and below --}}
-<section class="issues issues--mobile">
+<section class="issues issues--mobile" style="display: none;">
     {{#each model.issues as |issue|}}
     <div class="issue">
         {{issue-detail title="Customer Name" body=issue.customer_name}}
