@@ -6,6 +6,9 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import('bower_components/foundation-sites/dist/css/foundation.css');
+  app.import('bower_components/foundation-sites/dist/js/foundation.js');
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
