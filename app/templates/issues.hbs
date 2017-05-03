@@ -1,3 +1,30 @@
-{{tool-bar options=model}}
+{{tool-bar options=model.sections}}
+
+<table>
+    {{!--<thead>
+        <tr>
+            <th>Customer Name</th>
+            <th>Customer Email</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Opened At</th>
+            <th>Closed At</th>
+            <th>Employee Handler</th>
+        </tr>
+    </thead>--}}
+    <tbody>
+        {{#each model.issues as |issue|}}
+        <tr>
+            <td>{{issue.customer_name}}</td>
+            <td>{{issue.customer_email}}</td>
+            <td>{{issue.description}}</td>
+            <td>{{issue.status}}</td>
+            <td>{{issue.opened_at}}</td>
+            <td>{{issue.closed_at}}</td>
+            <td>{{issue.handling_employee}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
 
 {{outlet}}
