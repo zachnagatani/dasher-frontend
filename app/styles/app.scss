@@ -2,11 +2,15 @@ $divider-color: #e3e3e3;
 $main-color: #545454;
 $bg-light: #F7F7F7;
 $bg-dark: #333;
-$text-color: #272727;
+$text-color: #3C474C;
 
 // Global Styles
 html, body, .ember-view {
     height: 100%;
+}
+
+body {
+    color: $text-color;
 }
 
 // // Sidebar Styles

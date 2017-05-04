@@ -66,7 +66,7 @@ export default function() {
                     "attributes": {
                         "label": "05/2017",
                         "time": "2017-05-02",
-                        "value": 6
+                        "value": 1
                     }
                 }, {
                     "id": "April, 2017",
@@ -74,7 +74,7 @@ export default function() {
                     "attributes": {
                         "label": "04/2017",
                         "time": "2017-04-02",
-                        "value": 5
+                        "value": 3
                     }
                 }, {
                     "id": "March, 2017",
@@ -82,7 +82,7 @@ export default function() {
                     "attributes": {
                         "label": "03/2017",
                         "time": "2017-03-02",
-                        "value": 4
+                        "value": 10
                     }
                 }, {
                     "id": "February, 2017",
@@ -90,7 +90,7 @@ export default function() {
                     "attributes": {
                         "label": "02/2017",
                         "time": "2017-02-02",
-                        "value": 3
+                        "value": 2
                     }
                 }, {
                     "id": "January, 2017",
@@ -106,7 +106,7 @@ export default function() {
                     "attributes": {
                         "label": "12/2016",
                         "time": "2016-12-02",
-                        "value": 1
+                        "value": 3
                     }
                 }
             ]
