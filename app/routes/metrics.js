@@ -1,21 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+    months: Ember.inject.service(),
+
     model() {
-        var results = this.get('store').findAll('month');
-
-        var months = results.then(function(data) {
-            var monthsArray = [];
-
-            data.content.forEach(month => {
-                monthsArray.push(month.__data);
-            });
-
-            return Ember.RSVP.all(monthsArray);
-        });
-
-        return Ember.RSVP.hash({
-            data: months
+        // Fetch the month data from the months service
+        return this.get('months').getMonthsData().then(function(data) {
+            // Must convert Ember Object to normal object to allow toString to be called on it
+            return JSON.parse(JSON.stringify(data));
         });
     }
 });
