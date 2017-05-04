@@ -33,13 +33,13 @@ export default function() {
                 "id": "1",
                 "type": "issue",
                 "attributes": {
-                    "customer-name": "Sargent Guichard",
-                    "customer-email": "byurevich0@cnn.com",
+                    "customer-name": "Ztogy Maloggy",
+                    "customer-email": "helloyurevich0@cnn.com",
                     "description": "sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
-                    "status": true,
-                    "opened-at": "06/09/2016",
-                    "closed-at": "06/04/2016",
-                    "handling-employee": "Betteann Yurevich"
+                    "status": false,
+                    "opened-at": "08/09/2016",
+                    "closed-at": "09/04/2016",
+                    "handling-employee": "Taco Bravo"
                 },
             }, {
                 "id": "2",
@@ -47,10 +47,10 @@ export default function() {
                 "attributes": {
                     "customer-name": "Sargent Guichard",
                     "customer-email": "byurevich0@cnn.com",
-                    "description": "sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "description": "sapiendsfdsfsdf in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
                     "status": true,
-                    "opened-at": "06/09/2016",
-                    "closed-at": "06/04/2016",
+                    "opened-at": "06/01/2016",
+                    "closed-at": "06/10/2016",
                     "handling-employee": "Betteann Yurevich"
                 }
             }

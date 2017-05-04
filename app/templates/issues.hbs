@@ -25,13 +25,9 @@
 <table class="issues issues--table stack">
     <thead>
         <tr>
-            <td class="issue-heading button">Customer Name</td>
-            <td class="issue-heading button">Customer Email</td>
-            <td class="issue-heading button">Description</td>
-            <td class="issue-heading button">Status</td>
-            <td class="issue-heading button">Opened At</td>
-            <td class="issue-heading button">Closed At</td>
-            <td class="issue-heading button">Handling Employee</td>
+            {{#each model.sections as |section|}}
+            <td class="issue-heading button" {{action 'sortIssues' section}}>{{section}}</td>
+            {{/each}}
         </tr>
     </thead>
     <tbody>
