@@ -41,7 +41,7 @@
             <td>{{issue.customer_email}}</td>
             <td>{{issue.description}}</td>
             <td>{{if issue.status "Open" "Closed"}}</td>
-            <td>{{issue.opened_at}}</td>
+            <td>{{format-date issue.opened_at}}</td>
             <td>{{issue.closed_at}}</td>
             <td>{{issue.handling_employee}}</td>
         </tr>
