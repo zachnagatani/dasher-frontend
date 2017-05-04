@@ -1,15 +1,41 @@
 $divider-color: #e3e3e3;
 $main-color: #545454;
-$bg-color-light: #F7F7F7;
+$bg-light: #F7F7F7;
+$bg-dark: #333;
+$text-color: #272727;
 
+// Global Styles
 html, body, .ember-view {
     height: 100%;
+}
+
+// // Sidebar Styles
+.sidebar {
+    width: 182px;
+    height: 100%;
+    border-right: 1px solid $divider-color;
+    background: $main-color;
+}
+
+.sidebar__brand {
+    display: flex!important;
+    align-items: center;
+    width: 182px;
+    height: 54.8px;
+    border-bottom: 1px solid $divider-color;
+    background: #fff;
+}
+
+.sidebar__link {
+    a {
+        color: #fff;
+    }
 }
 
 main {
     width: calc(100% - 182px);
     height: 100%;
-    background: $bg-color-light;
+    background: $bg-light;
     position: relative;
 }
 
@@ -24,24 +50,7 @@ main {
     width: 85%;
 }
 
-.sidebar {
-    width: 182px;
-    height: 100%;
-    border-right: 1px solid $divider-color;
-    background: $main-color;
-}
-
-.sidebar__brand {
-    display: flex!important;
-    align-items: center;
-    width: 182px;
-    height: 50px;
-    border-bottom: 1px solid $divider-color;
-    background: #fff;
-}
-
-.sidebar__link {
-    a {
-        color: #fff;
-    }
+// Issues Table Styles
+.issue-heading {
+    display: table-cell;
 }
