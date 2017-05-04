@@ -1,0 +1,25 @@
+{{!-- Template for desktop ~ 834px and above --}}
+<table class="issues issues--table stack">
+    <thead>
+        <tr>
+            {{#each sections as |section|}}
+            <td class="issue-heading button" {{action 'sortIssues' section}}>{{section}}</td>
+            {{/each}}
+        </tr>
+    </thead>
+    <tbody>
+        {{#each sortedIssues as |issue|}}
+        <tr class="issue">
+            <td>{{issue.customer_name}}</td>
+            <td>{{issue.customer_email}}</td>
+            <td>{{issue.description}}</td>
+            <td>{{if issue.status "Open" "Closed"}}</td>
+            <td>{{format-date issue.opened_at}}</td>
+            <td>{{format-date issue.closed_at}}</td>
+            <td>{{issue.handling_employee}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+{{yield}}

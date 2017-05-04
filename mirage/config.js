@@ -34,7 +34,7 @@ export default function() {
                 "type": "issue",
                 "attributes": {
                     "customer-name": "Ztogy Maloggy",
-                    "customer-email": "helloyurevich0@cnn.com",
+                    "customer-email": "aelloyurevich0@cnn.com",
                     "description": "sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
                     "status": false,
                     "opened-at": "08/09/2016",
@@ -48,10 +48,34 @@ export default function() {
                     "customer-name": "Sargent Guichard",
                     "customer-email": "byurevich0@cnn.com",
                     "description": "sapiendsfdsfsdf in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
-                    "status": true,
+                    "status": false,
                     "opened-at": "06/01/2016",
                     "closed-at": "06/10/2016",
                     "handling-employee": "Betteann Yurevich"
+                }
+            }, {
+                "id": "3",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Leo Dio",
+                    "customer-email": "ldd@aol.com",
+                    "description": "yallsuck lentesque eget",
+                    "status": true,
+                    "opened-at": "07/01/2016",
+                    "closed-at": "07/10/2016",
+                    "handling-employee": "Zach Nagatani"
+                }
+            }, {
+                "id": "4",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Sargent Guichard",
+                    "customer-email": "byurevich0@cnn.com",
+                    "description": "sapiendsfdsfsdivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "status": true,
+                    "opened-at": "01/02/2017",
+                    "closed-at": "01/04/2017",
+                    "handling-employee": "Zach Nagatani"
                 }
             }
         ]
