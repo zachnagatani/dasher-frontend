@@ -1,3 +1,33 @@
-html, body {
+$divider-color: #e3e3e3;
+$main-color: #545454;
+
+html, body, .ember-view {
     height: 100%;
+}
+
+main {
+    display: inline-block;
+    width: 87%;
+}
+
+.sidebar {
+    display: inline-block;
+    width: 12%;
+    height: 100%;
+    border-right: 1px solid $divider-color;
+    background: $main-color;
+}
+
+.sidebar__brand {
+    display: flex!important;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid $divider-color;
+    background: #fff;
+}
+
+.sidebar__link {
+    a {
+        color: #fff;
+    }
 }
