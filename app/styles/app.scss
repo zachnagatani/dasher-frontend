@@ -41,6 +41,7 @@ main {
     height: 100%;
     background: $bg-light;
     position: relative;
+    overflow: hidden;
 }
 
 .container {
@@ -55,6 +56,26 @@ main {
 }
 
 // Issues Table Styles
+.table-container {
+    height: calc(100% - 65px);
+    overflow-y: scroll;
+}
+
 .issue-heading {
     display: table-cell;
+}
+
+.sort-footer {
+    width: 100%;
+    height: 65px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    display: flex;
+    align-items: center;
+}
+
+.sort-footer__param {
+    font-weight: normal;
 }

@@ -77,6 +77,78 @@ export default function() {
                     "closed-at": "01/04/2017",
                     "handling-employee": "Zach Nagatani"
                 }
+            }, {
+                "id": "5",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Sargent Guichard",
+                    "customer-email": "byurevich0@cnn.com",
+                    "description": "sapiendsfdsfsdivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "status": true,
+                    "opened-at": "01/02/2017",
+                    "closed-at": "01/04/2017",
+                    "handling-employee": "Zach Nagatani"
+                }
+            }, {
+                "id": "6",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Sargent Guichard",
+                    "customer-email": "byurevich0@cnn.com",
+                    "description": "sapiendsfdsfsdivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "status": true,
+                    "opened-at": "01/02/2017",
+                    "closed-at": "01/04/2017",
+                    "handling-employee": "Zach Nagatani"
+                }
+            }, {
+                "id": "7",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Sargent Guichard",
+                    "customer-email": "byurevich0@cnn.com",
+                    "description": "sapiendsfdsfsdivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "status": true,
+                    "opened-at": "01/02/2017",
+                    "closed-at": "01/04/2017",
+                    "handling-employee": "Zach Nagatani"
+                }
+            }, {
+                "id": "8",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Sargent Guichard",
+                    "customer-email": "byurevich0@cnn.com",
+                    "description": "sapiendsfdsfsdivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "status": true,
+                    "opened-at": "01/02/2017",
+                    "closed-at": "01/04/2017",
+                    "handling-employee": "Zach Nagatani"
+                }
+            }, {
+                "id": "9",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Sargent Guichard",
+                    "customer-email": "byurevich0@cnn.com",
+                    "description": "sapiendsfdsfsdivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "status": true,
+                    "opened-at": "01/02/2017",
+                    "closed-at": "01/04/2017",
+                    "handling-employee": "Zach Nagatani"
+                }
+            }, {
+                "id": "10",
+                "type": "issue",
+                "attributes": {
+                    "customer-name": "Sargent Guichard",
+                    "customer-email": "byurevich0@cnn.com",
+                    "description": "sapiendsfdsfsdivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget",
+                    "status": true,
+                    "opened-at": "01/02/2017",
+                    "closed-at": "01/04/2017",
+                    "handling-employee": "Zach Nagatani"
+                }
             }
         ]
     };

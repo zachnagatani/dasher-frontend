@@ -1,0 +1,10 @@
+<footer class="sort-footer">
+    <ul class="sort-footer__menu menu">
+        <li class="menu-text">Sorting By: </li>
+        {{#each parameters as |parameter|}}
+        <li class="sort-footer__param menu-text">{{format-parameter parameter}}</li>
+        {{/each}}
+    </ul>
+</footer>
+
+{{yield}}
