@@ -1,13 +1,21 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-    months: Ember.inject.service(),
+    afterModel(resolvedModel) {
+        console.log('resolvedModel:', resolvedModel);
+    },
 
     model() {
-        // Fetch the month data from the months service
-        return this.get('months').getMonthsData().then(function(data) {
-            // Must convert Ember Object to normal object to allow toString to be called on it
-            return JSON.parse(JSON.stringify(data));
+        // Fetch month data from store
+        return this.get('store').findAll('month').then(data => {
+            var monthsArr = [];
+
+            data.content.forEach(month => {
+                monthsArr.push(month.__data);
+            });
+
+            // Must convert into normal JS object to avoid TypeError: cannot convert object into primitive value
+            return JSON.parse(JSON.stringify(monthsArr));
         });
     }
 });
