@@ -5,6 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'dasher',
     environment: environment,
     rootURL: '/',
+    routerRootURL: '/app/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
