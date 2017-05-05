@@ -1,10 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-    afterModel(resolvedModel) {
-        console.log('resolvedModel:', resolvedModel);
-    },
-
     model() {
         // Fetch month data from store
         return this.get('store').findAll('month').then(data => {
