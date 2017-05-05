@@ -12,7 +12,10 @@
             {{/link-to}}
         </li>
         <li class="sidebar__link">
-            <a href="/logout">Logout</a>
+            <a href="/logout" {{action 'logout'}}>Logout</a>
+            <form id="logout-form" action="/logout" method="POST" style="display:none;">
+                <input type="hidden" name="_token" value={{logout}}>
+            </form>
         </li>
     </ul>
 </nav>
