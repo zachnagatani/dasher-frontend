@@ -1,7 +1,7 @@
 $divider-color: #e3e3e3;
 $main-color: #545454;
 $bg-light: #F7F7F7;
-$bg-dark: #333;
+$bg-dark: #414141;
 $text-color: #3C474C;
 
 // Global Styles
@@ -63,6 +63,8 @@ main {
 
 .issue-heading {
     display: table-cell;
+    background: $main-color;
+    border: none;
 }
 
 .sort-footer {
